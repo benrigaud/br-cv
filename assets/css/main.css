@@ -146,6 +146,7 @@ img{
 .br-cv-list.br-cv-split li{
     width: 50%;
     margin-bottom: 10px;
+    padding-right: 20px;
 }
 
 
@@ -186,18 +187,25 @@ img{
     background-color: #f3f3f3;
     font-size: 16px;
     color: #333;
-    padding: 6px 20px;
+    padding: 8px 20px;
     border-radius: 5px;
     margin-right: 10px;
-    display: block;
+    display: flex;
+    align-items: center;
     font-size: 14px;
     border: none;
+    line-height: 1em;
 }
 
 .br-cv .br-cv-social a:hover{
     background-color: #104fff;
     color: #fff;
 } 
+
+.br-cv .br-cv-social a i{
+    display: block;
+    margin-right: 4px;
+}
 
 .br-cv-info{
     font-size: 14px;
