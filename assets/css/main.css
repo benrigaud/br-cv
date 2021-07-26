@@ -145,7 +145,6 @@ img{
 }
 
 .br-cv-list.br-cv-split li{
-    width: 50%;
     margin-bottom: 10px;
     padding-right: 20px;
 }
@@ -256,6 +255,10 @@ img{
 
     .br-cv-list.br-cv-split{
         flex-direction: row;
+    }
+
+    .br-cv-list.br-cv-split li{
+        width: 50%;
     }
 }
 
