@@ -140,6 +140,7 @@ img{
 
 .br-cv-list.br-cv-split{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -231,7 +232,7 @@ img{
     border-color: #104fff;
 }
 
-@media (min-width:880px){
+@media (min-width:1038px){
     .br-cv-row{
         flex-direction: row;
     }
@@ -248,13 +249,17 @@ img{
     
 }
 
-@media (min-width:540px){
+@media (min-width:544px){
     .br-cv-info{
+        flex-direction: row;
+    }
+
+    .br-cv-list.br-cv-split{
         flex-direction: row;
     }
 }
 
-@media (min-width:340px){
+@media (min-width:344px){
     .br-cv-social{
         flex-direction: row;
     }
